@@ -17,11 +17,7 @@ const route = (app) => {
     app.use('/api/auth', authRouter)
     app.use('/api/search', searchRouter)
     app.use('/api/categories', categoryRouter)
-<<<<<<< HEAD
     app.use('/api/news', newsRouter)
-=======
-//      app.use('/api/news', newsRouter)
->>>>>>> 4758c5055ae7419466c2e24da7c15feee231fe7d
 }
 
 module.exports = route
